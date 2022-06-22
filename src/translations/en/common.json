@@ -1,0 +1,42 @@
+{
+    "loginForm": {
+        "email": "Email can not be left blank",
+        "emailLabel": "Email",
+        "emailPlaceholder": "Your email",
+        "password": "Password can not be left blank",
+        "passwordLabel": "Password",
+        "passwordPlaceholder": "Your password",
+        "enterValidEmail": "Enter a valid email",
+        "login": "Login"
+    },
+    "registerForm": {
+        "name": "Name can not be left blank",
+        "nameLabel": "Name",
+        "namePlaceholder": "Your name",
+        "surname": "Surname can not be left blank",
+        "surnameLabel": "Surname",
+        "surnamePlaceholder": "Your surname",
+        "email": "Email can not be left blank",
+        "emailLabel": "Email",
+        "emailPlaceholder": "Your email",
+        "password": "Password can not be left blank",
+        "passwordLabel": "Password",
+        "passwordPlaceholder": "Your password",
+        "enterValidEmail": "Enter a valid email",
+        "register": "Register"
+    },
+    "general": {
+        "name": "name",
+        "nameErrorBlank": "Name can not be left blank",
+        "namePlaceholder": "Your name",
+        "email": "Email",
+        "cannotBlank": "{{field}} can not be left blank",
+        "emailPlaceholder": "Your email",
+        "formPlaceholder": "Your {{field}}",
+        "subject": "Subject",
+        "message": "Message",
+        "send": "Send",
+        "validateEmailMessage": "Please validate your email address {{field}}"
+     }
+    
+}

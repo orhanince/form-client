@@ -1,0 +1,13 @@
+.package-item {
+    display: block;
+    background: red;
+    width: 100%;
+    max-width: 150px;
+}
+
+.package-title {
+    color: white;
+    font-size: 21px;
+    text-align: center;
+    background: green;
+}

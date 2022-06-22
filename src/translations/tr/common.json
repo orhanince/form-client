@@ -1,0 +1,42 @@
+{
+    "loginForm": {
+        "email": "E-posta boş olamaz!",
+        "emailLabel": "E-posta",
+        "emailPlaceholder": "E-posta adresiniz",
+        "password": "Şifre boş olamaz!",
+        "passwordLabel": "Şifre",
+        "passwordPlaceholder": "Şifreniz",
+        "enterValidEmail": "Geçerli bir e-posta adresi giriniz.",
+        "login": "Giriş"
+    },
+    "registerForm": {
+        "name": "İsim boş olamaz!",
+        "nameLabel": "İsim",
+        "namePlaceholder": "İsminiz",
+        "surname": "Soyisim alanı boş olamaz!",
+        "surnameLabel": "Soyisim",
+        "surnamePlaceholder": "Soyisminiz",
+        "email": "E-posta boş olamaz!",
+        "emailLabel": "E-posta",
+        "emailPlaceholder": "E-posta adresiniz",
+        "password": "Şifre boş olamaz!",
+        "passwordLabel": "Şifre",
+        "passwordPlaceholder": "Şifreniz",
+        "enterValidEmail": "Geçerli bir e-posta adresi giriniz.",
+        "register": "Kayıt Ol"
+    },
+    "general": {
+        "name": "İsim",
+        "nameErrorBlank": "İsim boş olamaz!",
+        "namePlaceholder": "İsminiz",
+        "email": "E-posta",
+        "emailErrorBlank": "{email} boş olamaz",
+        "cannotBlank": "{{field}} boş olamaz!",
+        "emailPlaceholder": "E-posta adresiniz",
+        "formPlaceholder": "{{field}}",
+        "subject": "Konu",
+        "message": "Mesaj",
+        "send": "Gönder",
+        "validateEmailMessage": "Lütfen {{field}} e-posta adresini onaylayınız."
+     }
+}
