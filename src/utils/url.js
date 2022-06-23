@@ -1,3 +1,3 @@
 // Define urls for the rest api endpoints
-const BASE_URL = 'http://localhost:3005';
+const BASE_URL = 'http://localhost:8080';
 export default BASE_URL

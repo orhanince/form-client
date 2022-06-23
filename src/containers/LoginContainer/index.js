@@ -5,6 +5,7 @@ import { createStructuredSelector } from 'reselect';
 import { withTranslation } from 'react-i18next';
 import LoginForm from './login-form';
 import './styles.css'
+import {setTokenService} from "../../utils/requests";
 /**
  * LoginContainer
  * @extends {Component}
@@ -30,7 +31,7 @@ class LoginContainer extends Component {
     return (
       <React.Fragment>
         
-        {/*<LoginForm buttonTitle={t('loginForm.login')} loginValidateData={
+        <LoginForm buttonTitle={t('loginForm.login')} loginValidateData={
         {
           email: t('loginForm.email'),
           emailLabel: t('loginForm.emailLabel'),
@@ -40,7 +41,7 @@ class LoginContainer extends Component {
           passwordPlaceholder: t('loginForm.passwordPlaceholder'),
           enterValidEmail: t('loginForm.enterValidEmail')
         }
-      } submitForm={this.userLogin}/>*/}
+      } submitForm={this.userLogin}/>
       
       </React.Fragment>
     );
@@ -53,8 +54,8 @@ export function mapDispatchToProps(dispatch, ownProps) {
   return {
     dispatch,
     login: (values) => {
-      dispatch(DoLogin(values, (res) => {
-        ownProps.history.push('/')
+      dispatch(DoLogin(values,  (res) => {
+
       }, () => {
 
       }));

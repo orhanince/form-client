@@ -1,6 +1,6 @@
 import { takeLatest,put } from "redux-saga/effects";
 import * as types from "./constants";
-import ApiService from "../../utils/requests";
+import ApiService, { setTokenService } from "../../utils/requests";
 import { SetUser } from "./actions";
 
 export const doLoginSaga = function* (action) {
@@ -10,8 +10,8 @@ export const doLoginSaga = function* (action) {
     if (response.data.status) {
       action.successFunc(response.data);
       yield put(SetUser(response.data));
-      localStorage.setItem('user_id', response.data.user_id)
-      localStorage.setItem('user_token', response.data.token)
+      localStorage.setItem('user_id', response.data.user_id);
+      localStorage.setItem('user_token', response.data.token);
     } else {
       action.errorFunc();
     }

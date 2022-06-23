@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
+
 /**
  * HomeContainer
  * @extends {Component}
@@ -22,7 +23,9 @@ class HomeContainer extends Component {
   }
 }
 
-const mapStateToProps = createStructuredSelector({});
+const mapStateToProps = createStructuredSelector({
+
+});
 
 export function mapDispatchToProps(dispatch, ownProps) {
   return {
