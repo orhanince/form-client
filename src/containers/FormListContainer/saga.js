@@ -6,8 +6,8 @@ import { SetUserForms } from "./actions";
 export const getUserFormsSaga = function* (action) {
   try {
     const response = yield ApiService.getUserForms.get('/');
-    action.successFunc(response);
-    console.log('my-res =>', response.data.data)
+    console.log('nedir => ', response.data.data)
+    action.successFunc(response.data.data);
     yield put(SetUserForms(response.data.data))
   } catch (e) {
     console.log(e);

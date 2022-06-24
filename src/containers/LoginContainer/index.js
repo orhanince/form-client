@@ -54,8 +54,9 @@ export function mapDispatchToProps(dispatch, ownProps) {
   return {
     dispatch,
     login: (values) => {
-      dispatch(DoLogin(values,  (res) => {
-
+      dispatch(DoLogin(values,  async (res) => {
+        console.log('res => ', res)
+        //ownProps.history.push('/forms')
       }, () => {
 
       }));

@@ -6,7 +6,8 @@ export const doRegisterSaga = function* (action) {
   try {
     console.log(action.values)
     const response = yield ApiService.register.post('/register', action.values);
-    console.log("ourresponse", response);
+    localStorage.setItem('user_id', response.data.user_id);
+    localStorage.setItem('user_token', response.data.token);
     action.successFunc(response);
   } catch (e) {
     console.log(e);
